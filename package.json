@@ -1,0 +1,26 @@
+{
+  "name": "ikhsan-alpha",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikhsanriff/ikhsan-alpha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikhsanriff/ikhsan-alpha/issues"
+  },
+  "homepage": "https://github.com/ikhsanriff/ikhsan-alpha#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "chalk": "^5.4.1",
+    "dotenv": "^16.5.0",
+    "ethers": "^6.14.1"
+  }
+}
