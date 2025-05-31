@@ -31,7 +31,8 @@ const globalConfig = {
     vusd:    '0xc14A8E2Fc341A97a57524000bF0F7F1bA4de4802',
     vnusd:   '0xBEbF4E25652e7F23CCdCCcaaCB32004501c4BfF8',
     ai16z:   '0x2d5a4f5634041f50180A25F26b2A8364452E3152',
-    azUSD:   '0x5966cd11aED7D68705C9692e74e5688C892cb162'
+    azUSD:   '0x5966cd11aED7D68705C9692e74e5688C892cb162',
+	usd1:	'0x16a8A3624465224198d216b33E825BcC3B80abf7'
   },
   routers: {
     virtual: '0x3dCACa90A714498624067948C092Dd0373f08265',
@@ -45,7 +46,8 @@ const globalConfig = {
     lvlusd:'0x5De3fBd40D4c3892914c3b67b5B529D776A1483A',
     vusd:  '0x5bb9Fa02a3DCCDB4E9099b48e8Ba5841D2e59d51',
     vnusd: '0x2608A88219BFB34519f635Dd9Ca2Ae971539ca60',
-    azUSD: '0xf45fde3f484c44cc35bdc2a7fca3ddde0c8f252e'
+    azUSD: '0xf45fde3f484c44cc35bdc2a7fca3ddde0c8f252e',
+	usd1: '0x7799841734ac448b8634f1c1d7522bc8887a7bb9'
   },
   methodIds: {
     virtualSwap: '0xa6d67510',
@@ -227,6 +229,7 @@ class WalletBot {
       virtual: 'https://app.x-network.io/maitrix-virtual/faucet ',
       vana:    'https://app.x-network.io/maitrix-vana/faucet ',
       ai16z:   'https://app.x-network.io/maitrix-ai16z/faucet'
+	usd1:	'https://app.x-network.io/maitrix-usd1/faucet'
     };
     for (const [tk, url] of Object.entries(endpoints)) {
       try {
